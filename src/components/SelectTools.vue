@@ -1,10 +1,6 @@
 <script setup lang="ts">
 import WelcomeItem from './WelcomeItem.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
-import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
-import CommunityIcon from './icons/IconCommunity.vue'
-import SupportIcon from './icons/IconSupport.vue'
 import IconTooling from '@/components/icons/IconTooling.vue'
 </script>
 
@@ -13,7 +9,7 @@ import IconTooling from '@/components/icons/IconTooling.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading><h4 class="heading"> Criar nova lista  </h4></template>
+    <template #heading><h4 class="heading">Criar nova lista</h4></template>
     <span class="subtitle">
       Crie suas listas personalizadas
       <a href="https://vuejs.org/" target="_blank" rel="noopener">aqui</a>
@@ -23,8 +19,9 @@ import IconTooling from '@/components/icons/IconTooling.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading><h4 class="heading"> Criar nova Tier List  </h4></template>
-    <span class="subtitle">Crie seus rankings personalizados
+    <template #heading><h4 class="heading">Criar nova Tier List</h4></template>
+    <span class="subtitle"
+      >Crie seus rankings personalizados
       <a href="https://vuejs.org/" target="_blank" rel="noopener">aqui</a>
     </span>
   </WelcomeItem>
@@ -32,7 +29,7 @@ import IconTooling from '@/components/icons/IconTooling.vue'
     <template #icon>
       <IconTooling />
     </template>
-    <template #heading><h4 class="heading"> Frases Personalizadas  </h4></template>
+    <template #heading><h4 class="heading">Frases Personalizadas</h4></template>
     <span class="subtitle">Crie suas frases ou citações personalizadas</span>
     <a href="https://vuejs.org/" target="_blank" rel="noopener">aqui</a>
   </WelcomeItem>
@@ -40,8 +37,9 @@ import IconTooling from '@/components/icons/IconTooling.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading><h4 class="heading"> Novo Certificado  </h4></template>
-    <span class="subtitle">Crie suas listas personalizadas
+    <template #heading><h4 class="heading">Novo Certificado</h4></template>
+    <span class="subtitle"
+      >Crie suas listas personalizadas
       <a href="https://vuejs.org/" target="_blank" rel="noopener">aqui</a>
     </span>
   </WelcomeItem>
@@ -49,12 +47,12 @@ import IconTooling from '@/components/icons/IconTooling.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading><h4 class="heading"> Novo Contrato  </h4></template>
-    <span class="subtitle">Crie contratos personalizados
+    <template #heading><h4 class="heading">Novo Contrato</h4></template>
+    <span class="subtitle"
+      >Crie contratos personalizados
       <a href="https://vuejs.org/" target="_blank" rel="noopener">aqui</a>
     </span>
   </WelcomeItem>
-
 </template>
 <style lang="scss" scoped>
 .subtitle {

@@ -25,7 +25,7 @@
 :root {
   --color-background: var(--vt-c-white);
   --color-background-soft: var(--vt-c-white-soft);
-  --color-background-light: #F9F8F5;
+  --color-background-light: #f9f8f5;
   --color-background-mute: var(--vt-c-white-mute);
 
   --color-border: var(--vt-c-divider-light-2);
