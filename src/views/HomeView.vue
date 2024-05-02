@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import SelectTools from '@/components/SelectTools.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <SelectTools />
   </main>
 </template>

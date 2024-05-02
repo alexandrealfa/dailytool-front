@@ -25,6 +25,7 @@
 :root {
   --color-background: var(--vt-c-white);
   --color-background-soft: var(--vt-c-white-soft);
+  --color-background-light: #F9F8F5;
   --color-background-mute: var(--vt-c-white-mute);
 
   --color-border: var(--vt-c-divider-light-2);
@@ -32,7 +33,7 @@
 
   --color-heading: var(--vt-c-text-light-1);
   --color-text: var(--vt-c-text-light-1);
-
+  --color-text-soft: var(--color-background-soft);
   --section-gap: 160px;
 }
 
@@ -61,7 +62,7 @@
 body {
   min-height: 100vh;
   color: var(--color-text);
-  background: var(--color-background);
+  background: var(--color-background-light);
   transition:
     color 0.5s,
     background-color 0.5s;
